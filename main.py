@@ -8,7 +8,7 @@ from PIL import Image
 
 logo = Image.open('logo.png')
 # Read the CSV file containing the quotes and authors
-quotes_df = pd.read_csv('AnimeQuotes.csv')  # Replace 'AnimeQuotes.csv' with your file path
+quotes_df = pd.read_csv('anime.csv')  # Replace 'AnimeQuotes.csv' with your file path
 
 # Predefined list of colors
 quote_color_list = [
