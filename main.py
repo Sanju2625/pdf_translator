@@ -6,7 +6,7 @@ import datetime
 import pandas as pd
 from PIL import Image
 
-logo = Image.open('logo.png')
+
 # Read the CSV file containing the quotes and authors
 quotes_df = pd.read_csv('AnimeQuotes.csv')  # Replace 'AnimeQuotes.csv' with your file path
 
